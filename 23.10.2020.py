@@ -2,7 +2,6 @@ from selenium import webdriver
 import os
 import time
 
-# link = "http://suninjuly.github.io/file_input.html"
 try:
    with open("test.txt", "w") as file:
       content = file.write("automationbypython")
