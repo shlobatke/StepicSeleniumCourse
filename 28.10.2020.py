@@ -11,7 +11,6 @@ try:
     alert.accept()
     time.sleep(2)
     x =browser.find_element_by_css_selector("#input_value")
-    # print(x)
     xx = int(x.text)
     print(xx)
     def calc(xx):
@@ -24,4 +23,4 @@ try:
 
 finally:
     time.sleep(10)
-    # browser.quit()
+    browser.quit()
